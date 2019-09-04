@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari:700&display=swap');
+
+ul {
+    margin:25vh auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 li {
+    font-family: 'Manjari', sans-serif;
     color: #ecf542;
+    list-style: none;
+    font-size: 100px;
+    margin: 20px;
+    text-transform: uppercase; 
+    text-shadow:  0 0 80px #fff, 0 0 30px;
+}
+
+li:nth-child(4) {
+    display: block;
+    margin-right: 60px; 
+    transform: rotate(20deg) translateY(20px);
+    animation: neon 3s infinite linear;
+}
+.off {
+    color: #000;
+    text-shadow: none;
 }
